@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/CSS/styles.css">
+    </head>
+    <body>
+        <div id="titulo">
+            <img id="imagen" src="/images/piedra.jpg" alt="">
+            <h1>EL PAIS</h1>
+            <h2>Noticia más importante</h2>
+            <h3>Resumen de la <b>noticia</b></h3>       <!--<b>Palabra en negrita-->
+            <p><i>Contenido</i> de la noticia</p>       <!--<i>Palabra en cursiva-->
+            </div>
+        
+        <h2>Titutlo de otra noticia</h2>
+       <p id="parrafo_inicial"> <u>Contenido</u> de la noticia</p>       <!--<u>palabra subrayada-->
+       <a href="https://www.google.com">Ir a Google</a>
+       <a href="info.html">Ir a info</a>
+       <ul>                     <!--Lista normal-->
+            <li class="primer-elemento">Leche</li>          
+            <li>Pan</li>
+            <li>Pollo</li>
+       </ul> 
+       <ol>             <!--Lista ordenada-->
+            <li class="primer-elemento">Colocar la harina en plato</li>
+            <li>Colocar 200 ml de leche</li>
+            <li>Batir todo hasta lograr una mezcla uniforme</li>
+       </ol>
+
+       <table>                                  <!--Tabla-->
+            <thead>
+                <tr>                            <!--El nombre de las columnas-->
+                    <th>Matricula</th>
+                    <th>Nombre</th>
+                    <th>Primer apellido</th>
+                    <th>Segundo apellido</th>
+                </tr>
+            </thead>
+            <tbody>                             <!--Los elementos de la tabla (tienen que ser los mismos que el numero de la columna)-->
+                <tr>
+                    <td>1234</td>
+                    <td>Jair</td>
+                    <td>Delval</td>
+                    <td>Aguirre</td>
+                </tr>
+                <tr>
+                    <td>2222</td>
+                    <td>Pedro</td>
+                    <td>LOpez</td>
+                    <td>si</td>
+                </tr>
+            </tbody>
+       </table>
+
+       <form action="/registro" method="POST">     <!--A donde voy a mandar el registro y el metodo por cual lo voy a mandar -->
+            <label for="Nombre">Nombre:</label>
+            <input id="nombre" name="nombre" type="text" />
+            <label for="apellido">Apellido:</label>
+            <input id="apellido" name="lastname" type="text" />
+            <input type="submit" />
+       </form>
+            <p>Otro parrafo</p>
+            <input id= "boton-ocultar" type="button" value="Ocultar">
+            <script src="/js/main.js"></script>
+    </body>
+</html>
